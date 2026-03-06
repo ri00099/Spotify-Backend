@@ -70,7 +70,7 @@ Other Tools:
 
 This project follows a professional backend folder structure.
 
-
+```
 project-root/
 │
 ├── node_modules/
@@ -107,6 +107,7 @@ project-root/
 ├── package.json
 ├── README.md
 └── server.js
+```
 
 🔐 Middlewares
 
