@@ -71,32 +71,42 @@ Other Tools:
 This project follows a professional backend folder structure.
 
 
-src
+project-root/
 │
-├── controllers
-│   ├── auth.controller.js
-│   ├── music.controller.js
+├── node_modules/
 │
-├── middlewares
-│   ├── auth.middleware.js
+├── src/
+│   ├── controllers/
+│   │   ├── music.controller.js
+│   │   └── user.controller.js
+│   │
+│   ├── db/
+│   │   └── db.js
+│   │
+│   ├── middlewares/
+│   │   └── auth.middleware.js
+│   │
+│   ├── models/
+│   │   ├── album.model.js
+│   │   ├── music.model.js
+│   │   └── user.model.js
+│   │
+│   ├── routes/
+│   │   ├── music.route.js
+│   │   └── user.route.js
+│   │
+│   ├── services/
+│   │   └── imagekit.service.js
+│   │
+│   └── app.js
 │
-├── models
-│   ├── user.model.js
-│   ├── music.model.js
-│   ├── album.model.js
-│
-├── routes
-│   ├── auth.routes.js
-│   ├── music.routes.js
-│
-├── services
-│   ├── storage.service.js
-│
-├── config
-│   ├── db.js
-│
+├── .env
+├── .env.example
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
 └── server.js
-
 
 🔐 Middlewares
 
